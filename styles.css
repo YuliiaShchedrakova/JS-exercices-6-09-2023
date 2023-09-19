@@ -1,0 +1,51 @@
+
+
+
+.att
+{
+    color : #FF0000; 
+} 
+
+label
+{
+    display:inline-block; 
+    min-width: 200px;
+} 
+
+button
+{
+    justify-content: space-around;
+} 
+
+input 
+{
+    display:inline-block; 
+    min-width: 15%;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .logo, .bas > p {
+        flex-wrap: wrap;
+    }
+    .logo, .accueil, .bas, .boite, .box, .colonne, .logo, .menu >p {
+        font-size: 100%;
+    }
+    .colonne {
+        visibility: hidden; 
+        width:0%;
+        display: none;
+    }
+    .boite {
+        width: 100%;
+    } 
+    section {
+        width: 100%;
+    } 
+
+    ul
+    {
+      flex-direction: column;
+    }
+}
