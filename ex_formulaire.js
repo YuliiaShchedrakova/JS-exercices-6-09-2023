@@ -8,6 +8,7 @@ var code=document.forms["code"].value;
 var ville=document.forms["ville"].value;  
 var email=document.forms["email"].value;  
 
+
 if (societe.length<1) {
     alert("Entrez le nom de societe s.v.p !"); 
     return false; 
